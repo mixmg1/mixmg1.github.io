@@ -1101,8 +1101,8 @@ header .top-bar {
 	background: #292f36;
 	min-width: 220px;
 	min-height: 66px;
-	position: absolute;
-	left: 90px;
+	position: fixed;
+	left: 0;
 	top: 0;
 }
 header .logo {
@@ -1130,7 +1130,7 @@ header .logo a {
  */
 .menu-toggle {
 	float: left;
-	width: 40px;
+	width: 0;
 	height: 40px;
 	margin-left: 20px;
 	margin-top: 13px;
@@ -1147,7 +1147,7 @@ header .logo a {
 	text-shadow: none;
 	color: transparent;
 	position: absolute;
-	right: 8px;
+	right: -0.5rem;
 	top: 50%;
 	bottom: auto;
 	left: auto;
@@ -1230,7 +1230,7 @@ header .logo a {
 
 /* dropdown nav */
 .main-navigation {
-	background: #000000;
+	background: #292f36;
 	padding: 24px 30px 42px;
 	margin: 0;
 	width: 100%;
